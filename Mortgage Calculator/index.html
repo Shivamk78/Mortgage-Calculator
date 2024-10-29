@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Mortgage Calculator</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="input">
+        <div class="title">
+          <h2>Mortgage Calculator</h2>
+          <p><u>Clear All</u></p>
+        </div>
+
+        <form action="#">
+          <div class="Mortgage-Amount">
+            <label for="">Mortgage Amount</label><br />
+            <input type="text" />
+          </div>
+
+          <div class="Mortgage-Term-Interest-Rate">
+            <div class="Mortgage-Term">
+              <label for=""> Mortgage Term</label>
+              <input type="text" />
+            </div>
+
+            <div class="Interest-Rate">
+              <label for="">Interest Rate</label>
+              <input type="text" />
+            </div>
+          </div>
+
+          <div class="Mortgage-Type-Repayment-Interest-Only">
+            <p>Mortgage Type</p>
+            <div class="Repayment">
+              <input type="checkbox" />
+              <label for="">Repayment</label>
+            </div>
+            <br />
+            <div class="Interest-Only">
+              <input type="checkbox" />
+              <label for="">Interest Only</label>
+            </div>
+          </div>
+          <br />
+          <button>Calculate Repayments</button>
+        </form>
+      </div>
+
+      <div class="output"></div>
+    </div>
+  </body>
+</html>
